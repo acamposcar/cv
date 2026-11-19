@@ -64,14 +64,21 @@ export const RESUME_DATA: ResumeData = {
       highlights: [
         "Develop and integrate real-time VCU/TCMS train control software in IEC 61131-3, managing requirements, versioning, and releases across SVN, IBM DOORS, and Oracle",
         "Initiated and architected an all-in-one PLC engineering workbench (Python, PySide6, Fastify, PostgreSQL, DOORS DXL) used daily by ~20 engineers to keep IBM DOORS specs, internal documentation, train anomaly tickets, and PLC code in sync, catching previously undetected defects with 83 static analysis rules and code generation",
-        "Built a Python OPC UA driver integrated with NI TestStand and DOORS for automated PLC verification, plus internal desktop and web tools for requirements change tracking (~10 daily users) and test-equipment booking (~50 users)",
+        "Built a Python OPC UA driver integrated with NI TestStand and DOORS for automated PLC verification, plus an Electron/React desktop app for collaborative requirements change tracking (~10 daily users)",
         "Developed C#/.NET headless release automation wrapping vendor build libraries to replace manual GUI packaging, backed by xUnit and E2E tests",
       ],
     },
     {
       company: "Stadler Rail",
       link: "https://www.stadlerrail.com",
-      badges: ["On-site (CH / IT)", "Homologation", "Dewesoft DAQ", "Rail"],
+      badges: [
+        "On-site (CH / IT)",
+        "Homologation",
+        "Dewesoft DAQ",
+        "Rail",
+        "Next.js",
+        "Internal Tools",
+      ],
       title: "Test & Validation Engineer",
       start: "Nov 2022",
       end: "Jun 2025",
@@ -80,6 +87,7 @@ export const RESUME_DATA: ResumeData = {
       highlights: [
         "Executed country-specific rail homologation tests (braking and Wheel Slide Protection / WSP), owning sensor instrumentation, Dewesoft data acquisition, and post-test data processing",
         "Defined validation plans, coordinated suppliers, validated vehicle software, and resolved software, electrical, and mechanical issues with engineering teams",
+        "Initiated and built a full-stack test-equipment booking web app (Next.js, TypeScript, PostgreSQL) for the validation department, actively used by ~50 people today",
       ],
     },
     {
