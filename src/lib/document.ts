@@ -66,6 +66,7 @@ const sections: Record<SectionKey, (data: ResumeData) => Block[]> = {
       tags: [],
     })),
   skills: ({ skills }) => [{ kind: "tags", tags: skills }],
+  languages: ({ languages }) => [{ kind: "tags", tags: languages }],
   projects: ({ projects }) =>
     projects.map((project) => ({
       kind: "entry",

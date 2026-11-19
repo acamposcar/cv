@@ -5,6 +5,7 @@ import { getContactLinks, getSections, type SectionKey } from "@/lib/resume";
 import { generateResumeStructuredData } from "@/lib/structured-data";
 import { Education } from "./components/education";
 import { Header } from "./components/header";
+import { Languages } from "./components/languages";
 import { Projects } from "./components/projects";
 import { Skills } from "./components/skills";
 import { Summary } from "./components/summary";
@@ -20,6 +21,7 @@ export default function ResumePage() {
     work: <WorkExperience work={RESUME_DATA.work} />,
     education: <Education education={RESUME_DATA.education} />,
     skills: <Skills skills={RESUME_DATA.skills} />,
+    languages: <Languages languages={RESUME_DATA.languages} />,
     projects: <Projects projects={RESUME_DATA.projects} />,
   };
 

@@ -147,6 +147,7 @@ export const RESUME_DATA: ResumeData = {
     "IBM DOORS",
     "Claude API",
   ],
+  languages: ["Spanish (Native)", "Valencian (Native)", "English (C1)"],
   projects: [
     {
       title: "PLC Engineering Workbench",
@@ -226,5 +227,6 @@ export const SECTION_TITLES = {
   work: "Work Experience",
   education: "Education",
   skills: "Skills",
+  languages: "Languages",
   projects: "Selected Projects",
 } satisfies Partial<Record<keyof ResumeData, string>>;
