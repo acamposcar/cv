@@ -6,9 +6,9 @@ export const RESUME_DATA: ResumeData = {
   location: "Valencia, Spain · CET (Open to Remote)",
   locationLink: "https://www.google.com/maps/place/Valencia",
   about:
-    "Software Engineer · Internal Tools, Build Automation & Industrial Software",
+    "Software Engineer building train control software, internal platforms, and automation.",
   summary:
-    "Software engineer with an industrial engineering background and 10 years building mission-critical software and internal platforms for rail and automotive teams. Experienced leading small engineering groups on site across Europe and owning internal tooling end to end—from static analysis platforms used daily by 20 engineers to headless release pipelines and booking apps supporting 50 users.",
+    "Software engineer with 10 years of experience building mission-critical control software across rail and automotive, including leading engineering teams on-site across Europe. Today I develop and integrate Vehicle Control Unit (VCU/TCMS) software that controls real trains. Alongside my core work, I proactively build internal developer platforms and automation in Python and TypeScript, led by a PLC static analysis platform used daily by ~20 engineers.",
   avatar,
   siteUrl: "https://acampos.dev",
   contact: {
@@ -38,7 +38,7 @@ export const RESUME_DATA: ResumeData = {
     {
       school: "Universitat Politècnica de València (UPV)",
       degree:
-        "BSc in Industrial Engineering · 8.0/10 · Co-author in Diabetes Technology & Therapeutics",
+        "BSc in Industrial Engineering · 8.0/10 · Published co-author in Diabetes Technology & Therapeutics",
       start: "2010",
       end: "2014",
     },
@@ -50,22 +50,22 @@ export const RESUME_DATA: ResumeData = {
       badges: [
         "On-site",
         "Rail",
-        "Internal Tools",
+        "IEC 61131-3",
         "Python",
         "TypeScript",
+        "Internal Tools",
         "C#",
-        "IEC 61131-3",
       ],
       title: "Software Build & Integration Engineer",
       start: "Jun 2025",
       end: null,
       description:
-        "Own build/release automation and the internal developer tools suite supporting vehicle control unit (VCU/TCMS) software integration, validation, and release across LRV, FLIRT, and locomotive platforms.",
+        "Develop, integrate, and release Vehicle Control Unit (VCU/TCMS) control software for trams, regional trains, and locomotives, while proactively building internal developer platforms and verification automation.",
       highlights: [
-        "Built automated compilation, PCZ packaging, PLC deployment, and boot-error verification pipelines via PowerShell where no CI existed",
-        "Developed headless release automation wrapping vendor build libraries to replace manual GUI packaging, backed by xUnit and E2E test suites",
-        "Built an OPC UA client/driver in Python integrated with NI TestStand and DOORS pipelines for automated PLC software verification",
-        "Integrate and maintain VCU/TCMS software across Selectron CAP1131, SVN, IBM DOORS, and SoftPro/Oracle",
+        "Develop and integrate real-time VCU/TCMS train control software in IEC 61131-3, managing requirements, versioning, and releases across SVN, IBM DOORS, and Oracle",
+        "Initiated and architected a PLC static analysis and code-quality platform (Python, PySide6, Fastify, PostgreSQL, DOORS DXL) with 83 custom rules, interactive code inspection, parameter cross-checking, and code generation, adopted daily by ~20 engineers",
+        "Built a Python OPC UA driver integrated with NI TestStand and DOORS for automated PLC verification, plus internal desktop and web tools for requirements change tracking (~10 daily users) and test-equipment booking (~50 users)",
+        "Developed C#/.NET headless release automation wrapping vendor build libraries to replace manual GUI packaging, backed by xUnit and E2E tests",
       ],
     },
     {
@@ -79,13 +79,13 @@ export const RESUME_DATA: ResumeData = {
         "Led on-site commissioning and regulatory homologation testing for new rolling stock (Tramlink Bern trams in Switzerland and Naples Circumvesuviana EMUs in Italy).",
       highlights: [
         "Executed country-specific rail homologation tests (braking and Wheel Slide Protection / WSP), owning sensor instrumentation, Dewesoft data acquisition, and post-test data processing",
-        "Defined validation plans, coordinated suppliers, validated vehicle software, and resolved electrical and mechanical issues with engineering teams",
+        "Defined validation plans, coordinated suppliers, validated vehicle software, and resolved software, electrical, and mechanical issues with engineering teams",
       ],
     },
     {
       company: "Interiorify.ai",
       badges: [
-        "Side Project",
+        "Bootstrapped",
         "SaaS",
         "Next.js",
         "FastAPI",
@@ -96,7 +96,7 @@ export const RESUME_DATA: ResumeData = {
       start: "Oct 2022",
       end: "Oct 2024",
       description:
-        "Designed, launched, and operated end to end an AI interior-design and virtual staging SaaS powered by Stable Diffusion/SDXL (Next.js, Supabase, Stripe subscriptions, Python FastAPI inference backend, Cloudinary). Reached paying customers and ran in production for two years.",
+        "Designed, launched, and operated an AI interior-design and virtual staging SaaS end to end, powered by Stable Diffusion/SDXL (Next.js, Supabase, Stripe subscriptions, Python FastAPI inference backend, Cloudinary). Reached paying customers and ran in production for two years.",
     },
     {
       company: "SIAM S.L.",
@@ -111,10 +111,10 @@ export const RESUME_DATA: ResumeData = {
       start: "Apr 2016",
       end: "Sep 2022",
       description:
-        "Delivered PLC/HMI automation software, managed industrial Ethernet networks, and on-site commissioning for automotive production lines across Europe.",
+        "Delivered PLC/HMI automation software, managed industrial Ethernet networks, and led on-site commissioning for automotive production lines across Europe.",
       highlights: [
-        "Lead (2020–2022): Led a team of 3–4 PLC software engineers delivering automation software and commissioning for the Ford Battery Plant in Almussafes (Valencia)",
-        "Programmed Allen-Bradley RSLogix 5000 PLCs and HMIs and built internal automation utilities for body shop lines at Ford Saarlouis (Focus 2018, on-site software coordinator), Ford Cologne (Fiesta 2017), JLR Nitra (Defender/Discovery 2019), and JLR Liverpool (Discovery Sport 2019)",
+        "Tech Lead (2020–2022): Managed a team of 3–4 engineers delivering PLC/HMI control systems and plant commissioning for the Ford Battery Plant in Almussafes (Valencia)",
+        "Programmed Allen-Bradley RSLogix 5000 PLCs and HMIs and built internal automation utilities for body shop lines at Ford (Saarlouis, on-site software coordinator; Cologne) and Jaguar Land Rover (Nitra, Liverpool)",
       ],
     },
   ],
@@ -129,11 +129,10 @@ export const RESUME_DATA: ResumeData = {
     "Docker",
     "Linux",
     "IEC 61131-3",
-    "C# (.NET/WPF)",
-    "Kotlin",
-    "PowerShell",
     "Electron",
     "PySide6",
+    "C# (.NET/WPF)",
+    "Kotlin",
     "Vitest/xUnit",
     "OPC UA",
     "NI TestStand",
@@ -142,8 +141,9 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-      title: "Rail Parser (Stadler)",
+      title: "PLC Static Analysis Platform",
       techStack: [
+        "Internal Tool",
         "Python 3.13",
         "PySide6",
         "Node.js",
@@ -154,11 +154,12 @@ export const RESUME_DATA: ResumeData = {
         "DOORS DXL",
       ],
       description:
-        "Static analysis and code-quality platform for CAP1131 PLC projects with 83 custom rules, interactive code viewer, DOORS parameter cross-checking, SoftPro/SVN integration, and code generation. Used daily by ~20 engineers.",
+        "End-to-end static analysis and code-quality platform for IEC 61131-3 train control projects featuring 83 custom validation rules, an interactive code viewer, automated DOORS parameter cross-checking, SVN/database integration, and code generation. Built on my own initiative and used daily by ~20 engineers.",
     },
     {
-      title: "SFS Monitor (Stadler)",
+      title: "Requirements Change-Tracking App",
       techStack: [
+        "Internal Tool",
         "Electron",
         "React 19",
         "TypeScript",
@@ -168,13 +169,20 @@ export const RESUME_DATA: ResumeData = {
         "Vitest",
       ],
       description:
-        "Collaborative requirements change-tracking desktop app with diffs, review queues, RBAC, audit logs, and managed network updates (~10 daily users).",
+        "Collaborative desktop app for tracking engineering specification changes with visual diffs, review queues, RBAC, audit logs, and managed network updates (~10 daily users).",
     },
     {
-      title: "Bookinger (Stadler)",
-      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Drizzle", "Sentry"],
+      title: "Test-Equipment Booking App",
+      techStack: [
+        "Internal Tool",
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Drizzle",
+        "Sentry",
+      ],
       description:
-        "Asset and test-equipment booking web app for the validation department featuring scheduling, check-in/out tracking, and usage forecasting (~50 users).",
+        "Web application for the validation department to schedule test rigs and instrumentation, track check-in/out status, and forecast equipment demand (~50 users).",
     },
     {
       title: "Brasa",
