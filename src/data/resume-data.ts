@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about:
     "Software Engineer building train control software, internal platforms, and automation.",
   summary:
-    "Software engineer with 10 years of experience building mission-critical control software across rail and automotive, including leading engineering teams on-site across Europe. Today I develop and integrate Vehicle Control Unit (VCU/TCMS) software that controls real trains. Alongside my core work, I proactively build internal developer platforms and automation in Python and TypeScript, led by a PLC static analysis platform used daily by ~20 engineers.",
+    "Software engineer with 10 years of experience building mission-critical control software across rail and automotive, including leading engineering teams on-site across Europe. Today I develop and integrate Vehicle Control Unit (VCU/TCMS) software that controls real trains. Alongside my core work, I proactively build internal developer platforms and automation in Python and TypeScript, led by a daily engineering workbench used by ~20 engineers to keep train code, requirements, documentation, and issue tickets in sync.",
   avatar,
   siteUrl: "https://acampos.dev",
   contact: {
@@ -63,7 +63,7 @@ export const RESUME_DATA: ResumeData = {
         "Develop, integrate, and release Vehicle Control Unit (VCU/TCMS) control software for trams, regional trains, and locomotives, while proactively building internal developer platforms and verification automation.",
       highlights: [
         "Develop and integrate real-time VCU/TCMS train control software in IEC 61131-3, managing requirements, versioning, and releases across SVN, IBM DOORS, and Oracle",
-        "Initiated and architected a PLC static analysis and code-quality platform (Python, PySide6, Fastify, PostgreSQL, DOORS DXL) with 83 custom rules, interactive code inspection, parameter cross-checking, and code generation, adopted daily by ~20 engineers",
+        "Initiated and architected an all-in-one PLC engineering workbench (Python, PySide6, Fastify, PostgreSQL, DOORS DXL) used daily by ~20 engineers to keep IBM DOORS specs, internal documentation, train anomaly tickets, and PLC code in sync, catching previously undetected defects with 83 static analysis rules and code generation",
         "Built a Python OPC UA driver integrated with NI TestStand and DOORS for automated PLC verification, plus internal desktop and web tools for requirements change tracking (~10 daily users) and test-equipment booking (~50 users)",
         "Developed C#/.NET headless release automation wrapping vendor build libraries to replace manual GUI packaging, backed by xUnit and E2E tests",
       ],
@@ -141,7 +141,7 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-      title: "PLC Static Analysis Platform",
+      title: "PLC Engineering Workbench",
       techStack: [
         "Internal Tool",
         "Python 3.13",
@@ -154,7 +154,7 @@ export const RESUME_DATA: ResumeData = {
         "DOORS DXL",
       ],
       description:
-        "End-to-end static analysis and code-quality platform for IEC 61131-3 train control projects featuring 83 custom validation rules, an interactive code viewer, automated DOORS parameter cross-checking, SVN/database integration, and code generation. Built on my own initiative and used daily by ~20 engineers.",
+        "Daily developer workbench for IEC 61131-3 train control teams that bridges IBM DOORS software design, internal documentation databases, and live PLC code to verify spec-to-code consistency and documentation accuracy. Combines 83 custom static analysis rules catching previously missed defects, an interactive code viewer, code generation, and integrated train anomaly ticket tracking (~20 daily engineers, built on my own initiative).",
     },
     {
       title: "Requirements Change-Tracking App",
