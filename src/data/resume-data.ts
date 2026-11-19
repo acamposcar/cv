@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about:
     "Software Engineer building train control software, internal platforms, and automation.",
   summary:
-    "Software engineer with 10 years of experience building mission-critical control software across rail and automotive, including leading engineering teams on-site across Europe. Today I develop and integrate Vehicle Control Unit (VCU/TCMS) software that controls real trains. Alongside my core work, I use modern AI-assisted and agentic coding workflows to ship internal developer platforms and automation in Python and TypeScript, led by a daily engineering workbench used by ~20 engineers to keep train code, requirements, documentation, and issue tickets in sync.",
+    "Software engineer with 10 years of experience building mission-critical control software across rail and automotive, including leading engineering teams on-site across Europe. Today I develop and integrate Vehicle Control Unit (VCU/TCMS) software that controls real trains. Alongside my core work, I use modern AI-assisted and agentic coding workflows to ship internal developer platforms and automation, led by a daily engineering workbench used by ~20 engineers to keep train code, requirements, documentation, and issue tickets in sync.",
   avatar,
   siteUrl: "https://acampos.dev",
   contact: {
